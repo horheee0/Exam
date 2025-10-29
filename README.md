@@ -60,3 +60,16 @@ class DashboardController extends Controller {
         return view('dashboard.index');
     }
 }
+
+---
+
+## Contributor
+- Jorge Jose Abenojar
+- Neil Basti Benitez
+
+---
+
+## License
+None
+
+---
