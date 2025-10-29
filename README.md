@@ -1,41 +1,41 @@
-# Assignment Number 3  
-## Markdown Documentation
+# 🌾 HarvestHire (Lite)
 
-Using the Markdown script, create documentation of your **Midterm Examination** using a README file.
+## 🧾 Description / Overview  
+**HarvestHire (Lite)** is a simplified machine rental web system designed to make agricultural machinery booking easy and efficient.  
+It provides two main management units:  
+1. **Manage Machineries** – where users can add, edit, or delete machinery records.  
+2. **Manage Rentals** – where users can create a rental by selecting from the available machineries.  
 
----
-
-### 📘 Project Title
-*(Enter your project title here)*
-
----
-
-### 📝 Description / Overview
-Provide a brief summary of what your midterm project is about.  
-Explain the system or application you developed and its purpose.
+This system helps reduce manual booking work and allows digital management of both machinery and rental transactions.
 
 ---
 
-### 🎯 Objectives
-List the main goals or learning outcomes of your project.  
-For example:
-- To develop a functional web-based system.
-- To demonstrate CRUD operations.
-- To apply MVC architecture and database integration.
+## 🎯 Objectives  
+1. To develop a machine rental system where users can book machinery online without the hassle of going physically to the site.  
+2. To practice CRUD (Create, Read, Update, Delete) operations for managing machinery efficiently.  
+3. To apply web technologies such as **HTML**, **CSS**, **JavaScript**, **PHP**, and **Laravel** in system development.  
 
 ---
 
-### ⚙️ Features / Functionality
-Describe what your system or program can do.  
-Example:
-- User login and registration
-- Event booking and management
-- Data viewing and updating
-- Responsive design interface
+## ⚙️ Features / Functionality  
+- Add, edit, or delete machinery under **Manage Machineries**.  
+- Create and manage machinery rentals under **Manage Rentals**.  
+- Select existing machinery for new rentals.  
+- Automatic status update when machinery is rented.  
+- Simple and user-friendly interface for easy management.  
 
 ---
 
-### 💻 Installation Instructions
-1. Download or clone this repository.  
+## 🧩 Installation Instructions  
+1. Install **XAMPP** or any local web server with PHP and MySQL.  
+2. Install **Composer** (for Laravel dependency management).  
+3. Open your terminal and run:  
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
+   composer install
+4. Set up your database in .env and migrate the tables:
+   ```bash
+    php artisan migrate
+5, Start the Laravel development server:
+
+    php artisan serve
+6. Open your browser and go to http://localhost:8000.
