@@ -52,6 +52,7 @@ This system helps reduce manual booking work and allows digital management of bo
 
 ## Screenshots or Code Snippets
 ### DashboardController.php
+``` php
 <?php
 namespace App\Http\Controllers;
 
