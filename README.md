@@ -11,7 +11,7 @@ This system helps reduce manual booking work and allows digital management of bo
 ---
 
 ## Objectives  
-1. To develop a machine rental system where users can book machinery online without the hassle of going physically to the site.  
+1. To develop a machine rental system where users can book machinery online without the hassle of going physically    .  
 2. To practice CRUD (Create, Read, Update, Delete) operations for managing machinery efficiently.  
 3. To apply web technologies such as **HTML**, **CSS**, **JavaScript**, **PHP**, and **Laravel** in system development.  
 
@@ -46,7 +46,7 @@ This system helps reduce manual booking work and allows digital management of bo
 1. Go to Manage Machineries to add or edit your list of available machinery.
 2. Go to Manage Rentals to create a new rental and choose an existing machinery.
 3. Machinery status changes automatically from available to rented when booked.
-4. Edit or delete any entry easily from the dashboard pages.
+4. Edit or delete any entry easily from the rentals page if you want to cancel.
 
 ---
 
@@ -203,6 +203,6 @@ class RentalController extends Controller {
 ---
 
 ## License
-None
+*None*
 
 ---
